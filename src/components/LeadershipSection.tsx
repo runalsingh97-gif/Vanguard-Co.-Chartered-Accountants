@@ -33,20 +33,20 @@ export const LeadershipSection: React.FC<LeadershipSectionProps> = ({ onOpenCons
             >
               <div>
                 {/* Photo Header Container */}
-                <div className="relative h-64 overflow-hidden bg-[#0F1E36]">
+                <div className="relative h-72 overflow-hidden bg-[#0F1E36]">
                   <img
                     src={partner.imageUrl}
                     alt={partner.name}
-                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500 brightness-95"
+                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 contrast-[1.03] brightness-[0.98]"
                     referrerPolicy="no-referrer"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0F1E36] via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0F1E36] via-[#0F1E36]/20 to-transparent" />
 
-                  <div className="absolute bottom-3 left-4 right-4 text-white space-y-0.5">
-                    <span className="text-[11px] font-bold uppercase tracking-wider text-[#D4AF37] bg-[#0F1E36]/80 px-2.5 py-0.5 rounded border border-[#D4AF37]/30 inline-block">
+                  <div className="absolute bottom-3 left-4 right-4 text-white space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-widest text-[#D4AF37] bg-[#0F1E36]/90 backdrop-blur-sm px-2.5 py-0.5 rounded border border-[#D4AF37]/30 inline-block shadow-sm">
                       {partner.designation}
                     </span>
-                    <h3 className="font-serif font-bold text-xl text-[#F9F8F3]">
+                    <h3 className="font-serif font-bold text-xl text-[#F9F8F3] tracking-tight">
                       {partner.name}
                     </h3>
                   </div>

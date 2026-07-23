@@ -222,7 +222,7 @@ export const PARTNERS: Partner[] = [
     bio: "Rajesh Sharma is a Fellow Member of ICAI with over 22 years of post-qualification experience. Prior to founding Vanguard & Co., he served as a Tax Director at a Big 4 accounting firm. He regularly appears before the ITAT and GST Commissioner (Appeals) and is a frequent speaker at ICAI seminars.",
     email: "rsharma@vanguardca.in",
     linkedin: "https://linkedin.com",
-    imageUrl: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=1000&q=80",
     quote: "Precision in tax planning is not merely about compliance—it is a vital strategic lever for sustainable business growth."
   },
   {
@@ -240,7 +240,7 @@ export const PARTNERS: Partner[] = [
     bio: "Ananya Verma leads the Firm's Assurance and Virtual CFO practice. An alumna of Shri Ram College of Commerce (SRCC), she specializes in Ind AS implementation, statutory audits of listed and private entities, and registered valuations for tech startups raising capital.",
     email: "averma@vanguardca.in",
     linkedin: "https://linkedin.com",
-    imageUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1000&q=80",
     quote: "Robust financial controls and transparent reporting build the foundation of trust that investors demand."
   },
   {
@@ -258,7 +258,7 @@ export const PARTNERS: Partner[] = [
     bio: "Vikramaditya Roy combines deep legal and financial expertise. Dual-qualified as a Chartered Accountant and Advocate, he advises Indian promoters and multinational clients on foreign investment structuring, joint ventures, and regulatory approvals with RBI and MCA.",
     email: "vroy@vanguardca.in",
     linkedin: "https://linkedin.com",
-    imageUrl: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=1000&q=80",
     quote: "Cross-border growth requires seamless alignment between legal mandates and financial realities."
   }
 ];
