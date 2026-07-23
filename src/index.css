@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  --color-navy-900: #0F1E36;
+  --color-navy-800: #182C4A;
+  --color-emerald-900: #0A2E23;
+  --color-emerald-800: #134636;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #B89428;
+  --color-gold-100: #F7F3E6;
+  --color-taupe-50: #F9F8F3;
+  --color-taupe-100: #F4F1EA;
+  --color-taupe-200: #EAE5D9;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom Gold Accent Gradients and Styles */
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #C5A028 50%, #B89428 100%);
+}
+
+.bg-gold-subtle {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.12) 0%, rgba(212, 175, 55, 0.03) 100%);
+}
+
+.text-gold {
+  color: #D4AF37;
+}
+
+.border-gold {
+  border-color: #D4AF37;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F9F8F3;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B89428;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Vanguard & Co. Chartered Accountants",
+  "description": "Leading Indian Chartered Accountancy practice providing Income Tax, GST, Statutory Audit, Corporate Law, and Virtual CFO services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
